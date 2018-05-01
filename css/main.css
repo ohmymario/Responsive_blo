@@ -1,22 +1,16 @@
-/*
 
-Your styles go here!
-
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
-*{
+* {
   font-family: 'PT Sans', sans-serif;
 }
 
 body {
   background-image: linear-gradient(to bottom,#f5f5f5,#f1f1f1);
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3em;
 }
 
 article {
@@ -27,14 +21,19 @@ article {
   max-width: 1200px;
 }
 
+/***** Images *****/
 
-h1 {
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 3em;
+figure {
+  margin: 0 10px 0 10px;
 }
 
-article > img {
+article > figure > img {
   max-width: 100%;
   width: 100%;
+}
+
+
+/***** Unicode Style *****/
+p > span {
+  font-size: 25px;
 }

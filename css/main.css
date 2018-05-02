@@ -36,4 +36,72 @@ article > figure > img {
 /***** Unicode Style *****/
 p > span {
   font-size: 25px;
+} width: 80%;
 }
+
+/***** Articles *****/
+
+article {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/***** Images *****/
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-family: 'Old Standard TT', serif;
+  font-weight: bold;
+}
+
+article > figure > img {
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+/***** Unicode Style *****/
+p > span {
+  font-size: 25px;
+}
+
+/***** Footer *****/
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a.social {
+
+  text-decoration: none;
+  color: black;
+  
+  border-radius: 15%;
+  padding-left: .7em;
+  align-self: center;
+  flex-basis: 5%;
+  
+  font-size: 1.2em;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  padding-right: 10px
+}
+
